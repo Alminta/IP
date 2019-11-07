@@ -47,3 +47,7 @@ while coverage.max() > 0:
     coverage = calc_coverage(start_period, shift_duration, demand)
     res[i] += 1
 
+print(coverage)
+print(demand)
+
+print(res)
